@@ -1,0 +1,1 @@
+This doesn't yet have actions set up to build automatically, the dist directory is part of the repo, so `npm run build` and then push.

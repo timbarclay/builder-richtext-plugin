@@ -1,0 +1,30 @@
+{
+  "name": "builder-text-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "entry": "plugin",
+  "output": "plugin.system.js",
+  "main": "dist/plugin.system.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@builder.io/app-context": "^1.0.0",
+    "@builder.io/react": "^8.2.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-quill": "^2.0.0"
+  }
+}
